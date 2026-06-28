@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compesa Smart</title>
+
+  <meta name="theme-color" content="#0077cc">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>💧 Compesa Smart</h1>
+  <p>Consulte o próximo abastecimento de água.</p>
+</header>
+
+<main>
+
+  <section class="card">
+    <label for="endereco">Endereço</label>
+
+    <input
+      id="endereco"
+      type="text"
+      placeholder="Digite seu endereço">
+
+    <button id="consultar">
+      Consultar
+    </button>
+  </section>
+
+  <section class="card">
+
+    <h2>Próximo abastecimento</h2>
+
+    <div id="resultado">
+      Informe um endereço para consultar.
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <small>
+    Compesa Smart • Versão 1.0
+  </small>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
