@@ -1,0 +1,22 @@
+{
+  "versao": "1.0",
+  "ultimaAtualizacao": "2026-06-28",
+  "enderecos": [
+    {
+      "id": 1,
+      "logradouro": "Rua Teresita Bandeira",
+      "numero": "205",
+      "bairro": "Peixinhos",
+      "cidade": "Olinda",
+      "cep": "53300-030",
+      "setor": "PEIXINHOS-A",
+      "abastecimentos": [
+        "2026-06-28",
+        "2026-07-01",
+        "2026-07-04",
+        "2026-07-07",
+        "2026-07-10"
+      ]
+    }
+  ]
+}
